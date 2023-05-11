@@ -2,8 +2,8 @@ import os
 import discord
 from discord.ext import commands
 from newsapi import NewsApiClient
-TOKEN = 'MTA0NTg2NDI5Njk4ODU0MTAyOA.GUe2XV.7dND-qC6jZIfoQ1v9xI31nP8OW7ZI8uwdEnltg'
-NEWS_API_KEY = 'eeba792485e14d7bad769601f6ccf404'
+TOKEN = 'token'
+NEWS_API_KEY = 'token'
 
 intents = discord.Intents.default()
 intents.message_content = True
